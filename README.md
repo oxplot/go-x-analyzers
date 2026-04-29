@@ -6,7 +6,8 @@
 The generated `main.go` is derived from `golang.org/x/tools`. Running
 `go generate ./...` first advances that module to `@latest`, then scans direct
 pass packages for exported `Analyzer` values and exported analyzer `Suite`
-values.
+values. Add analyzer names to `excluded.txt`, one per line, before running
+`go generate` to omit them from the generated multichecker.
 
 ```sh
 go generate ./...

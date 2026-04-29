@@ -1,0 +1,2 @@
+# Analyzer names listed here are omitted from the generated multichecker.
+shadow
